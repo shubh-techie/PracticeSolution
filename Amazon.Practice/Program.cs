@@ -9,6 +9,20 @@ namespace Amazon.Practice
 {
     class Program
     {
+        private static void QuickSortDemostration()
+        {
+            int[] arr = { 10, 3, 2, 7, 7, 5, 8, 4, 1, 2, 9, 7, 8, 11 };
+            //int[] arr = { -20, 2, 5, 3, 7, 5, 8, -4, 9, 23, 111 };
+            // int[] arr = { 10, 20, 30, 50, 60, 40 };
+            //int[] arr = { 3, 9, 1, 4, 7 };
+            Console.WriteLine("Before sorting....");
+
+            MergerSortDemo.PrintAnArray(arr);
+            QuickSort.quickSorting(arr, 0, arr.Length-1);
+
+            Console.WriteLine("After sorting....");
+            MergerSortDemo.PrintAnArray(arr);
+        }
         static void Main(string[] args)
         {
 
@@ -500,16 +514,7 @@ namespace Amazon.Practice
             ArrayAndStraings.ArrayListDemo();
         }
 
-        private static void QuickSortDemostration()
-        {
-             //int[] arr = { 10, 3, 2, 7, 7, 5, 8, 4, 1, 2, 9, 7, 8, 11 };
-            int[] arr = { -20, 2, 5, 3, 7, 5, 8, -4, 9, 23, 111 };
-           // int[] arr = { 10, 20, 30, 50, 60, 40 };
 
-            MergerSortDemo.PrintAnArray(arr);
-            QuickSort.quickSorting(arr, 0, arr.Length);
-            MergerSortDemo.PrintAnArray(arr);
-        }
 
         private static void InsertionSortDemostration()
         {

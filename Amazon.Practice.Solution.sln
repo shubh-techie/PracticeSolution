@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.Practice", "Amazon.Practice\Amazon.Practice.csproj", "{73B8A4D1-997F-4BB3-AB8B-C4E12A083C86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Practice", "Amazon.Practice\Amazon.Practice.csproj", "{73B8A4D1-997F-4BB3-AB8B-C4E12A083C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideAndConquer", "DivideAndConquer\DivideAndConquer.csproj", "{F6B51C79-47A5-425C-8F24-EDB549DE17BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionPractice", "RecursionPractice\RecursionPractice.csproj", "{10B3040B-E7F0-4417-AE22-BDDD56BB0939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{78160993-FEFB-45B7-A7EF-1CEBF9D3133B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodePractice", "LeetCodePractice\LeetCodePractice.csproj", "{8D626032-0D31-4A3A-A68B-FB4D13DBCB00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultPractice", "DefaultPractice\DefaultPractice.csproj", "{E130BC08-884B-459A-A0C2-642E651E83D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{73B8A4D1-997F-4BB3-AB8B-C4E12A083C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73B8A4D1-997F-4BB3-AB8B-C4E12A083C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73B8A4D1-997F-4BB3-AB8B-C4E12A083C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B51C79-47A5-425C-8F24-EDB549DE17BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B51C79-47A5-425C-8F24-EDB549DE17BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B51C79-47A5-425C-8F24-EDB549DE17BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B51C79-47A5-425C-8F24-EDB549DE17BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B3040B-E7F0-4417-AE22-BDDD56BB0939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B3040B-E7F0-4417-AE22-BDDD56BB0939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B3040B-E7F0-4417-AE22-BDDD56BB0939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B3040B-E7F0-4417-AE22-BDDD56BB0939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78160993-FEFB-45B7-A7EF-1CEBF9D3133B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78160993-FEFB-45B7-A7EF-1CEBF9D3133B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78160993-FEFB-45B7-A7EF-1CEBF9D3133B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78160993-FEFB-45B7-A7EF-1CEBF9D3133B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D626032-0D31-4A3A-A68B-FB4D13DBCB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D626032-0D31-4A3A-A68B-FB4D13DBCB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D626032-0D31-4A3A-A68B-FB4D13DBCB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D626032-0D31-4A3A-A68B-FB4D13DBCB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E130BC08-884B-459A-A0C2-642E651E83D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E130BC08-884B-459A-A0C2-642E651E83D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E130BC08-884B-459A-A0C2-642E651E83D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E130BC08-884B-459A-A0C2-642E651E83D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

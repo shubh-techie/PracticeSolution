@@ -10,7 +10,7 @@ namespace Amazon.Practice
         {
             if (left < right)
             {
-                int pivot = getPivotOfArray(Arr, left, right-1);
+                int pivot = getPivotOfArray(Arr, left, right);
                 quickSorting(Arr, left, pivot - 1);
                 quickSorting(Arr, pivot + 1, right);
             }
@@ -20,7 +20,7 @@ namespace Amazon.Practice
         {
             int tempPivotNumber = arr[right];
             int pivotIndex, j;
-            pivotIndex = left-1;
+            pivotIndex = left - 1;
 
             pintArrayRec(arr);
             Console.WriteLine("-------------------------------");
@@ -29,7 +29,6 @@ namespace Amazon.Practice
                 if (arr[j] <= tempPivotNumber)
                 {
                     pivotIndex++;
-                    //Swapping the ith and jth element
                     int temp = arr[pivotIndex];
                     arr[pivotIndex] = arr[j];
                     arr[j] = temp;
@@ -37,10 +36,8 @@ namespace Amazon.Practice
 
                 Console.WriteLine("index :{0}, pivot :{1}", j, pivotIndex);
             }
-            int temp1 = arr[pivotIndex];
-            arr[pivotIndex] = arr[right];
-            arr[right] = temp1;
-            return pivotIndex+1;
+            pintArrayRec(arr);
+            return pivotIndex;
         }
 
         private static void pintArrayRec(int[] arr)
