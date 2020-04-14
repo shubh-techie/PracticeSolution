@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace DefaultPractice
 {
@@ -8,7 +10,12 @@ namespace DefaultPractice
     {
         public static void IsPalindrome()
         {
-            Console.WriteLine("is polindrome " + IsPalindrome("RACECAR"));
+            Console.WriteLine("is polindrome " + IsPalindrome(-123));
+        }
+
+        public static string RemoveSpecialCharacters(string str)
+        {
+            return Regex.Replace(str, "[^a-zA-Z0-9_.]+", "", RegexOptions.Compiled).ToLower();
         }
         public static bool IsPalindrome(string str)
         {
@@ -27,6 +34,19 @@ namespace DefaultPractice
                 }
             }
             return odds < 2;
+        }
+
+        public static bool IsPalindrome(int x)
+        {
+            if (x < 0 || (x != 0 && x % 10 == 0)) return false;
+            int reverse = 0;
+            while (x > reverse)
+            {
+                reverse = reverse * 10 + x % 10;
+                x /= 10;
+            }
+
+            return x == reverse || x == reverse / 10;
         }
     }
 }
