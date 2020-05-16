@@ -8,7 +8,7 @@ namespace LeetCodePractice
     {
         public static void FindDisappearedNumbers()
         {
-            int[] nums = {1,1};
+            int[] nums = { 1, 1 };
             IList<int> output = FindDisappearedNumbers(nums);
             foreach (var item in output)
             {
@@ -35,5 +35,33 @@ namespace LeetCodePractice
 
             return output;
         }
+        public List<int> repeatedNumber(List<int> A)
+        {
+            Dictionary<int, bool> Track = new Dictionary<int, bool>();
+            List<int> output = new List<int>();
+
+            for (int i = 0; i < A.Count; i++)
+            {
+                if (Track.ContainsKey(A[i]))
+                {
+                    output.Add(A[i]);
+                }
+                else
+                {
+                    Track.Add(A[i], true);
+                }
+            }
+
+            for (int i = 0; i < A.Count; i++)
+            {
+                if (!Track.ContainsKey(A[i]))
+                {
+                    output.Add(A[i]);
+                }
+            }
+            return output;
+        }
+
+
     }
 }

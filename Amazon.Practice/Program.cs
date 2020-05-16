@@ -18,7 +18,7 @@ namespace Amazon.Practice
             Console.WriteLine("Before sorting....");
 
             MergerSortDemo.PrintAnArray(arr);
-            QuickSort.quickSorting(arr, 0, arr.Length-1);
+            QuickSort.quickSorting(arr, 0, arr.Length - 1);
 
             Console.WriteLine("After sorting....");
             MergerSortDemo.PrintAnArray(arr);
@@ -26,15 +26,20 @@ namespace Amazon.Practice
         static void Main(string[] args)
         {
 
+            //connect ropes 
+            ConnectRopes.mergeFiles();
+
+
             //SearchingDemostration();
             //MergerSortDemostration();
             //SelectionSortDemostration();
             //InsertionSortDemostration();
-            QuickSortDemostration();
+            //QuickSortDemostration();
+
+            //SumOfTwoNumberPractice.TruckPackage();
+            //SumOfTwoNumberPractice.makeAnagram("cde", "abc");
 
             //ArrayAndStraingsDemo();
-
-
             //printAnArrayUsingRecursion();
             //NonConsecutiveOnes(2);
 
@@ -117,6 +122,8 @@ namespace Amazon.Practice
             //SortingABinaryArray.sortBinaryArray(a, n);
             //pintArrayRec(a);
 
+
+            Ques1304FindNUniqueIntegers.SumZero();
             Console.WriteLine("Please click <enter> to exit");
             Console.ReadLine();
         }

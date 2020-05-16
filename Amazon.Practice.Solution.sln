@@ -5,15 +5,25 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Practice", "Amazon.Practice\Amazon.Practice.csproj", "{73B8A4D1-997F-4BB3-AB8B-C4E12A083C86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideAndConquer", "DivideAndConquer\DivideAndConquer.csproj", "{F6B51C79-47A5-425C-8F24-EDB549DE17BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivideAndConquer", "DivideAndConquer\DivideAndConquer.csproj", "{F6B51C79-47A5-425C-8F24-EDB549DE17BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionPractice", "RecursionPractice\RecursionPractice.csproj", "{10B3040B-E7F0-4417-AE22-BDDD56BB0939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionPractice", "RecursionPractice\RecursionPractice.csproj", "{10B3040B-E7F0-4417-AE22-BDDD56BB0939}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{78160993-FEFB-45B7-A7EF-1CEBF9D3133B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{78160993-FEFB-45B7-A7EF-1CEBF9D3133B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodePractice", "LeetCodePractice\LeetCodePractice.csproj", "{8D626032-0D31-4A3A-A68B-FB4D13DBCB00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodePractice", "LeetCodePractice\LeetCodePractice.csproj", "{8D626032-0D31-4A3A-A68B-FB4D13DBCB00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultPractice", "DefaultPractice\DefaultPractice.csproj", "{E130BC08-884B-459A-A0C2-642E651E83D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultPractice", "DefaultPractice\DefaultPractice.csproj", "{E130BC08-884B-459A-A0C2-642E651E83D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreedyAlgorithm", "GreedyAlgorithm\GreedyAlgorithm.csproj", "{80D4F11A-0F65-44B2-BFA8-52C42AD45BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSTDemo", "BSTDemo\BSTDemo.csproj", "{B25CC522-7F9A-4D2A-A739-3A35365C26EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionSolution", "RecursionSolution\RecursionSolution.csproj", "{61CEAF1C-0DD9-4717-8F0C-4092F1D5D4B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraySolutions", "ArraySolutions\ArraySolutions.csproj", "{22993325-9ADF-41A0-881C-AB8626604121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.LinkedList.Demostration.Project", "SP.LinkedList.Demostration.Project\SP.LinkedList.Demostration.Project.csproj", "{93347025-48F9-49B0-8978-4E179434C3E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +55,26 @@ Global
 		{E130BC08-884B-459A-A0C2-642E651E83D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E130BC08-884B-459A-A0C2-642E651E83D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E130BC08-884B-459A-A0C2-642E651E83D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D4F11A-0F65-44B2-BFA8-52C42AD45BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D4F11A-0F65-44B2-BFA8-52C42AD45BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D4F11A-0F65-44B2-BFA8-52C42AD45BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D4F11A-0F65-44B2-BFA8-52C42AD45BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25CC522-7F9A-4D2A-A739-3A35365C26EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25CC522-7F9A-4D2A-A739-3A35365C26EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25CC522-7F9A-4D2A-A739-3A35365C26EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25CC522-7F9A-4D2A-A739-3A35365C26EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CEAF1C-0DD9-4717-8F0C-4092F1D5D4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CEAF1C-0DD9-4717-8F0C-4092F1D5D4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CEAF1C-0DD9-4717-8F0C-4092F1D5D4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CEAF1C-0DD9-4717-8F0C-4092F1D5D4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22993325-9ADF-41A0-881C-AB8626604121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22993325-9ADF-41A0-881C-AB8626604121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22993325-9ADF-41A0-881C-AB8626604121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22993325-9ADF-41A0-881C-AB8626604121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93347025-48F9-49B0-8978-4E179434C3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93347025-48F9-49B0-8978-4E179434C3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93347025-48F9-49B0-8978-4E179434C3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93347025-48F9-49B0-8978-4E179434C3E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

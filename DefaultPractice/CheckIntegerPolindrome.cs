@@ -11,6 +11,22 @@ namespace DefaultPractice
         public static void IsPalindrome()
         {
             Console.WriteLine("is polindrome " + IsPalindrome(-123));
+
+        }
+    
+
+        public string solve(string A)
+        {
+            string[] arr = A.Trim().Split(' ');
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Array.Reverse(arr[i].ToCharArray());
+                sb.Append(new string(arr[i]));
+            }
+
+            return sb.ToString();
         }
 
         public static string RemoveSpecialCharacters(string str)

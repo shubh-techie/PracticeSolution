@@ -6,10 +6,24 @@ namespace DynamicProgramming
     {
         static void Main(string[] args)
         {
+
+
+
+
+            new StringPossibleSolution().PrintAllPossibleSubsetDemo();
+            //new RodCuttingSolution().RodCuttingDemo();
+
+
+
+
+
+
+
             //MaxOfConsecutiveSum.maxConsecutiveSum();
             //MaxOfConsecutiveSum.BitFlip();
+            //CoinChange.countWays();
+            //Ques121BestTimeBuySellStock.MaxProfit();
 
-            CoinChange.countWays();
 
 
             Console.WriteLine("Please press <enter> to exit");
